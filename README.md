@@ -14,7 +14,7 @@ This repo is intended for you to fork and modify based on your needs.
 
 It contains a simple configuration file, which, after modifying, can be used to create a new instance of the app. The site is automatically built and deployed using GitHub Pages - all you need to do is connect it with your credentials and you're good to go.
 
-If you want to create multiple instances of this repo under the same account, you can use the "Create repo from template" option to 'copy' the repo instead of forking it. In this case, getting upstream updates is more tricky - please consult the [CHANGLELOG](patches/CHANGELOG) file for more information.
+If you want to create multiple instances of this repo under the same account, you can use the "Create repo from template" option to 'copy' the repo instead of forking it. In this case, getting upstream updates is more tricky - you can use the 'Fetch Latest Version' Github Action that is included in the repo to apply recent modifications to you code. Note that this action will overwrite most of your the files in your repo by their new versions, except a select few (`CONFIGURATION.ts`, `package.json` and `README.md`). If you've changed more files in your repo and you want to keep them intact, make sure you modify this action prior to running it...
 
 ### Configuration File
 
